@@ -8,7 +8,7 @@ export default function Portfolio() {
     { title: "client Work", category: "Reel",video:"https://drive.google.com/file/d/1Ul-f3TgSbIvbO8y6X_5sGxSjVkbFfwga/preview" },
     { title: "client work", category: "Reel",video:"https://drive.google.com/file/d/16f4PCAWexeBkxv-ZLm56pqW8gU9dbVOO/preview" },
     { title: "client work", category: "Reel", video:"https://drive.google.com/file/d/1o3eWcDItTxnOu4Ka5gIE399q6_m3eO5-/preview" },
-    // { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1tn07f19bq3ulUeCFLe8FCq-IuZUwf45p/preview" },
+     { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1tn07f19bq3ulUeCFLe8FCq-IuZUwf45p/preview" },
   ];
 
   return (
@@ -21,17 +21,20 @@ export default function Portfolio() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="aspect-video bg-neutral-900 rounded-xl border border-neutral-800 p-6 flex flex-col justify-end hover:border-red-600 transition cursor-pointer"
+            className="relative w-full aspect-video rounded-2xl 
+             overflow-hidden bg-neutral-900 
+             border border-neutral-800 
+             hover:border-red-600 transition-all"
           >
             <iframe
       src={project.video}
-      className="w-full h-full"
+      className="absolute inset-0 w-full h-full"
       allow="autoplay"
     ></iframe>
-            <p className="text-xs text-red-600 uppercase font-bold mb-1">
+            {/* <p className="text-xs text-red-600 uppercase font-bold mb-1">
               {project.category}
             </p>
-            <h3 className="text-xl font-bold">{project.title}</h3>
+            <h3 className="text-xl font-bold">{project.title}</h3> */}
           </div>
         ))}
       </div>
