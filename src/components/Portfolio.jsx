@@ -8,7 +8,8 @@ export default function Portfolio() {
     { title: "client Work", category: "Reel",video:"https://drive.google.com/file/d/1Ul-f3TgSbIvbO8y6X_5sGxSjVkbFfwga/preview" },
     { title: "client work", category: "Reel",video:"https://drive.google.com/file/d/16f4PCAWexeBkxv-ZLm56pqW8gU9dbVOO/preview" },
     { title: "client work", category: "Reel", video:"https://drive.google.com/file/d/1o3eWcDItTxnOu4Ka5gIE399q6_m3eO5-/preview" },
-     { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1tn07f19bq3ulUeCFLe8FCq-IuZUwf45p/preview" },
+    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1tn07f19bq3ulUeCFLe8FCq-IuZUwf45p/preview" },
+    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1kcJI2CkGa987lT74OFAoLTE1EvqBCO8X/preview" },
   ];
 
   return (
