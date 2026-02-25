@@ -74,7 +74,7 @@ export default function Contact() {
             <div className="text-left">
               <p className="text-xs text-neutral-500 uppercase">Phone</p>
               <p className="font-semibold text-white">
-                +91 12345 67890
+                +91 7830550394
               </p>
             </div>
           </a>
