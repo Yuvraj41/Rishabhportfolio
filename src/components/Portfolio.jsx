@@ -10,6 +10,8 @@ export default function Portfolio() {
     { title: "client work", category: "Reel", video:"https://drive.google.com/file/d/1o3eWcDItTxnOu4Ka5gIE399q6_m3eO5-/preview" },
     { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1tn07f19bq3ulUeCFLe8FCq-IuZUwf45p/preview" },
     { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1kcJI2CkGa987lT74OFAoLTE1EvqBCO8X/preview" },
+    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1C5PJxUq1-UxOc4UAt6rYc8oitlESRUtf/preview" },
+    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1cUrvhnLnVJSUUfdyUS-kLoqZADI7SVoK/preview" },
   ];
 
   return (
