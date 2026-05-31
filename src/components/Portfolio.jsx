@@ -1,17 +1,17 @@
 export default function Portfolio() {
   const projects = [
     { title: "Client Work", category: "Reel",video:"https://drive.google.com/file/d/1736LH_3cpkxPCB_AtNavCnaTyT0x2NY4/preview" },
-    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1SLRce7CfbNXFXi6_TrZ-4v_wMs0T3OFm/preview" },
+    //{ title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1SLRce7CfbNXFXi6_TrZ-4v_wMs0T3OFm/preview" },
     { title: "Client Work", category: "Reel",video:"https://drive.google.com/file/d/16eMijZuQCj9vTd3UjrporhGkurASXnat/preview"  },
     { title: "Client Work", category: "Reel",video:"https://drive.google.com/file/d/1L3hm_FldLYlE97lxQVEuwUXT2Mf1n8-E/preview"  },
-    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1VMQZ2oIYlObDd19jKevrlpJ5xteoALE1/preview"},
+    //{ title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1VMQZ2oIYlObDd19jKevrlpJ5xteoALE1/preview"},
     { title: "client Work", category: "Reel",video:"https://drive.google.com/file/d/1Ul-f3TgSbIvbO8y6X_5sGxSjVkbFfwga/preview" },
     { title: "client work", category: "Reel",video:"https://drive.google.com/file/d/16f4PCAWexeBkxv-ZLm56pqW8gU9dbVOO/preview" },
     { title: "client work", category: "Reel", video:"https://drive.google.com/file/d/1o3eWcDItTxnOu4Ka5gIE399q6_m3eO5-/preview" },
-    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1tn07f19bq3ulUeCFLe8FCq-IuZUwf45p/preview" },
-    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1kcJI2CkGa987lT74OFAoLTE1EvqBCO8X/preview" },
-    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1C5PJxUq1-UxOc4UAt6rYc8oitlESRUtf/preview" },
-    { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1cUrvhnLnVJSUUfdyUS-kLoqZADI7SVoK/preview" },
+   // { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1tn07f19bq3ulUeCFLe8FCq-IuZUwf45p/preview" },
+    //{ title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1kcJI2CkGa987lT74OFAoLTE1EvqBCO8X/preview" },
+   // { title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1C5PJxUq1-UxOc4UAt6rYc8oitlESRUtf/preview" },
+    //{ title: "Personal work", category: "Reel", video:"https://drive.google.com/file/d/1cUrvhnLnVJSUUfdyUS-kLoqZADI7SVoK/preview" },
   ];
 
   return (
